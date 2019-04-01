@@ -5,7 +5,6 @@
 .container{width: 80%;
 margin: 0 auto;}
 
-
 /* BLOCCO LEZIONI */
 
 #lezioni .col-lg-12 img {
@@ -13,28 +12,6 @@ margin: 0 auto;}
   display: block;
   margin-right: auto;
   margin-left: auto;
-}
-
-#lezioni {
-  text-align: center;
-}
-
-/* BLOCCO STEPS */
-
-#steps{
-  text-align: center;
-}
-
-/* BLOCCO PERCHE */
-#why {
-  text-align: center;
-}
-
-#why .col-lg-12 > .first,
-#why .col-lg-12 > .second,
-#why .col-lg-12 > .third {
-  width: 100%;
-  margin-top: 80px;
 }
 
 #why .col-lg-12 img {
@@ -57,8 +34,8 @@ img{
   clear:both;
 }
 
-
-* div {margin-top:20px; }
+* div, h1, img {margin-bottom:20px;
+text-align: center;}
 
 
 @media all and (max-width:768px) {
@@ -111,7 +88,9 @@ img{
 
   .col-xs-offset-11{margin-left: calc((100% / 12) * 11);}
 
-  }
+  .container{width: 100%;}
+
+}
 
 
 @media all and (min-width:768px) and (max-width:992px;){
@@ -165,6 +144,7 @@ img{
 
   .col-md-offset-11{margin-left: calc((100% / 12) * 11);}
 
+  .container{width: 100%;}
 }
 
 @media all and (min-width:992px) {
